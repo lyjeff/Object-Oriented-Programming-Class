@@ -36,16 +36,16 @@
 
 
 ---
-## 演算法
+## Algorithm
 ### ![](https://i.imgur.com/XNSOCxa.png)
 
 ---
 
 ### Dijkstra's Algorithm + Priority Queue
-- [來源](http://www.csie.ntnu.edu.tw/~u91029/Path.html#6)
+- [Source: 演算法筆記](http://www.csie.ntnu.edu.tw/~u91029/Path.html#6)
 
 
-```c
+```c++
 // 要丟進Priority Queue的點
 // b是點，d是可能的最短路徑長度。
 // a可以提出來，不必放在Node裡。
