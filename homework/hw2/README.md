@@ -1,32 +1,26 @@
 # OOP HW2
 ###### tags: `OOP` `HW`
-> [color=lightblue][name=J.Y.Lin] [time=Wed, Apr 3, 2019 10:38 PM]
+- J.Y.Lin
+- Wed, Apr 3, 2019 10:38 PM
+- => [the origin, full README.md](https://hackmd.io/s/H1LBL8XuE)
 
 ## Online Bipartite Matching Problem
-> [color=yellow]Deadline : 2019/04/16 Tue :scream:
-> :angel:Deadline: 2019/04/09 Tue
+- Deadline : 2019/04/16 Tue :scream:
+- :angel:Deadline: 2019/04/09 Tue
 
-> [color=lightgreen]
 > - [作業投影片](https://drive.google.com/file/d/1VWK8Y671w0VmbK7Uwt8CzW0TUZSgjuK9/view?usp=sharing)
 > - 測資
->   - [範例測資input](https://drive.google.com/open?id=19VoonSAhEhoZPuA4eJbpAmf2lGLOdJje) (**random seed = ==1==**)
+>   - [範例測資input](https://drive.google.com/open?id=19VoonSAhEhoZPuA4eJbpAmf2lGLOdJje) (**random seed = 1**)
 >   - [範例測資output](https://drive.google.com/file/d/1jtP1wCh-5gt1ApXCJ8-OcDyEpiLQSB_x/view?usp=sharing)
 >   - demo測資input
 >       - [request1.txt](https://drive.google.com/file/d/14411vEOxkb7CeI9syc2pfUtoehnNxbnA/view?usp=sharing)
 >       - [request2.txt](https://drive.google.com/open?id=1U28GfWj_LU3a3Na_YEQFc8l5OAK7VsSS)
 >       - [request3.txt](https://drive.google.com/open?id=1lA87OY-LvKq6nSKSZPL0UMDfVW0eIB_D)
 >   - demo測資output
->       - from Jeff Lin (**random seed = ==1==**)
+>       - from Jeff Lin (**random seed = 1**)
 >           - [result_1.txt](https://drive.google.com/file/d/1GR03q-0oZxTaq-Hsvdty0FxmvdnpkVIs/view?usp=sharing)
 >           - [result_2.txt](https://drive.google.com/file/d/1VylLeVlpBZo9PGZtufiH02SnQFmO9gDd/view?usp=sharing)
 >           - [result_3.txt](https://drive.google.com/open?id=11cY6AuDNMtn8VkqzJ1NGp44zBymeB1Vo)
-> - 快速連結
->   - [Input Format](#嗨，大家過得好嗎)
->   - [Output Format](#作業交出去，分數輕鬆拿，大家…做不出來…嗚嗚嗚嗚)
->   - [作業提示原文](#連連看技總複習)
->   - [作業提示翻譯](#師爺，翻譯出來給我聽，什麼他媽的叫他媽的驚喜！)
->   - [老師要求](#老師の要求des)
->   - [工具總整理](#原來是…我沒梗了)
 
 
 ## 嗨，大家過得好嗎
@@ -55,7 +49,7 @@
     5. 設計靜態成員變量和靜態成員函數來計算並獲得滿意請求的數量
 
 ### 老師の要求des
-```cpp=
+```c++
 // You need forward declaration
 class Resource
 {
@@ -91,7 +85,7 @@ class Request
 - [Class 簡介](https://openhome.cc/Gossip/CppGossip/ClassABC.html)
 - [Class 完整介紹](https://pydoing.blogspot.com/2012/10/cpp-class.html)
 - DFS+精簡過的 adjacency matrix([來源 : 演算法筆記](http://www.csie.ntnu.edu.tw/~u91029/Matching.html#4))(應該用不到)
-```cpp=
+```c++
 int nx, ny;             // X的點數目、Y的點數目
 int mx[100], my[100];   // X各點的配對對象、Y各點的配對對象
 bool vy[100];           // 記錄Graph Traversal拜訪過的點
